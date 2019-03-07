@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <title>BS4 Exercise</title>
+</head>
+
+<body>
+    <form class="border text-center col-md-6 bg-info text-white">
+        <fieldset>
+            <legend>Team Members</legend>
+            <div class="form-group text-left">
+                <label for="memberone">First Member:</label>
+                <input type="text" class="form-control" id="memberone">
+            </div>
+            <div class="form-group text-left">
+                <label for="membertwo">Second Member:</label>
+                <input type="text" class="form-control" id="membertwo">
+            </div>
+            <p>
+                <button class="btn btn-primary bg-white text-info border-info" type="button" data-toggle="collapse" data-target="#optional"
+                    aria-expanded="false" aria-controls="optional">
+                    Third Team Member
+                </button>
+            </p>
+            <div class="collapse text-dark" id="optional">
+                <div class="card card-body">
+                    <div class="form-group text-left text-info">
+                        <div style="padding-left:2em">
+                            <input class="form-check-input" type="checkbox" value="" id="instructorapproval">
+                            <label class="form-check-label" for="instructorapproval">
+                                Instructor Approval
+                            </label>
+                        </div>
+                        <br>
+                        <label for="memberthree">Third Member:</label>
+                        <input type="text" class="form-control" id="memberthree">
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="radio" name="productname" aria-label="Radio button for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="App Name">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <input type="radio" name="productname" aria-label="Radio button for following text input">
+                    </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Team Name">
+            </div>
+        </fieldset>
+        <br>
+        <button type="submit" class="btn btn-primary bg-white text-info border-info">Submit</button>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
